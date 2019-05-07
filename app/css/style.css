@@ -99,7 +99,6 @@ body {
 .header__top,
 .header__bottom {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 .header__top {
@@ -320,7 +319,7 @@ body {
 }
 .services__title {
     display: flex;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 .services__image {
     width: 196px;
@@ -440,7 +439,7 @@ body {
     font-size: 16px;
     font-family: "Muller";
     display: block;
-    margin: 12px 10px;
+    margin: 16px 10px;
 }
 .detail-button {
     display: flex;
@@ -451,7 +450,6 @@ body {
     background: red;
     margin-bottom: 36px;
 }
-/*backgrounд ебануть паддингами w и h убрать у херам*/
 .detail-button_text {
     display: flex;
     max-width: 100%;
@@ -473,6 +471,9 @@ body {
 .footer__top {
     display: flex;
     align-items: center;
+    height: 97px;
+    border-top: 1px solid #d1d1d1;
+    margin-top: 27px;
 }
 .footer__navigation {
     display: flex;
@@ -534,16 +535,22 @@ body {
     font-weight: 400;
 }
 .dial-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     font-family: Geometria;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
     color: #000000;
+    margin-right: 25px;
 }
 .footer__bottom-dial {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+.page-start {
+    position: fixed;
+    right: 42px;
+    bottom: 113px;
 }
